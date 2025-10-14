@@ -1,7 +1,8 @@
 const mongoose = require("mongoose");
 
 const mongoURI =
-  "mongodb://localhost:27017/Vrum";
+  "mongodb+srv://kaam25:Sahil%40191202@cluster0.zffpmuo.mongodb.net/kaamdhaam?retryWrites=true&w=majority"
+
 const connectToMongo = () => {
   mongoose.connect(mongoURI, {
     useNewUrlParser: true,
